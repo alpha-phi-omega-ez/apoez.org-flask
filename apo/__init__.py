@@ -56,3 +56,8 @@ import apo.api
 
 # Import all views
 import apo.views
+
+# Since the application instance is now created, register each Blueprint
+# with the Flask application instance (app)
+
+app.register_blueprint(apo.views.views_blueprint)
