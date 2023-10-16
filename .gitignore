@@ -2,6 +2,7 @@
 
 # Hide virtualenv
 venv/
+.venv/
 
 # Hide compiled python files
 *.pyc
